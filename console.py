@@ -34,6 +34,6 @@ artists = artist_repository.select_all()
 for artist in artists:
     print(artist.__dict__)    
 
-artist_albums =artist_repository.albums(artist_1)
-for album in artist_albums:
-    print(album.artist.name)    
+# artist_albums =artist_repository.albums(artist_1)
+# for album in artist_albums:
+#     print(album.artist.name)    

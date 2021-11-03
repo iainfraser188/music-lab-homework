@@ -15,7 +15,7 @@ def select_all():
         artist = artist_repository.select(row["artist_id"])
         album = Album(row['title'],
                       row['genre'],
-                      artist,
+                      artist.name,
                       row['id']
                         )
 
